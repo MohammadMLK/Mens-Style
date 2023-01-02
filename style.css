@@ -124,7 +124,9 @@ a {
 }
 
 .main {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     width: 1200px;
     margin: 0 auto;
 }
@@ -325,4 +327,69 @@ a {
     border: none;
     border-radius: 5px;
     background: white;
+}
+
+footer{
+    background-color: #0d181d;
+    padding: 10px 10px;
+}
+
+footer .main {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    padding: 10px 0px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+footer .main .rightside{
+    display: flex;
+    flex-direction: row;
+}
+
+footer .main .rightside > div{
+    margin: 0px 100px 0px 0px ;
+}
+
+footer .main .rightside .stuff ul li{
+    color: white;
+    font-size: medium;
+    line-height: 40px;
+}
+
+footer .main .rightside .getHelp h3{
+    line-height: 34px;
+    font-size: medium;
+    color: white;
+}
+
+footer .main .rightside .getHelp ul li{
+    color: rgb(193, 193, 193);
+    font-size: small;
+    line-height: 40px; 
+}
+
+footer .main .rightside .aboutLink h3{
+    line-height: 34px;
+    font-size: medium;
+    color: white;
+}
+
+footer .main .rightside .aboutLink ul li{
+    color: rgb(193, 193, 193);
+    font-size: small;
+    line-height: 40px; 
+}
+
+footer .main .socialMedia img{
+    width: 30px;
+    padding: 0px 0px 0px 20px;
+}
+
+footer .copyRight{
+    padding: 0px 0px;
+    height: 10px;
+    color:white;
+    font-size: small;
 }
