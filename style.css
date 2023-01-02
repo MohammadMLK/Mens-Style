@@ -260,3 +260,47 @@ a {
     padding: 0px 0px 20px 0px;
     line-height: 25px;
 }
+
+.flexContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.flexContainer > div{
+    padding: 15px 10px;
+    width: 30.5%;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+.flexContainer .productImageBox{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexContainer .productImageBox img{
+    width: 50%;
+    object-fit: cover;
+    float: left;
+}
+
+.flexContainer .product-content .product-title{
+    font-weight: 700;
+}
+
+.flexContainer .product-content .product-description{
+    line-height: 25px;
+    text-align: inherit;
+}
+
+.flexContainer .product-content button{
+    width: 100%;
+    color: white;
+    background: #182d37;
+    border: 0px;
+    outline: none;
+    border-radius: 5px;
+    padding: 6px;
+}
