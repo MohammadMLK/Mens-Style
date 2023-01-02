@@ -176,6 +176,12 @@ a {
     margin: 30px 0px;
 }
 
+.boxes h2{
+    padding: 0px 0px 15px 0px;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
 .grid-container{
     display: grid;
     grid-template-areas: 
