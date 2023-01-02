@@ -196,10 +196,8 @@ a {
     display: grid;
     grid-template-areas: 
         "header header header header header header"
-        "side main main main right right"
-        "side footer footer footer footer footer";
+        "side main main footer right right";
     gap: 1px;
-    background-color: #4c7d89;
 }
 
 .grid-container img{
@@ -209,7 +207,6 @@ a {
 }
 
 .grid-container > div{
-    background-color: #182d37;
     text-align: center;
     font-size: 30px;
     color: white;
