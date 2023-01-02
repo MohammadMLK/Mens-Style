@@ -304,3 +304,43 @@ a {
     border-radius: 5px;
     padding: 6px;
 }
+
+.about-us-section{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.about-us-section > div{
+    width: 600px;
+}
+
+.about-us-section .imageBoxSection > img{
+    width: 400px;
+    float: right;
+    object-fit: cover;
+}
+
+.about-us-section .aboutUsContent{
+    color: white;    
+}
+
+.about-us-section .aboutUsContent .aboutus-title{
+    font-weight: 700;
+}
+
+.about-us-section .aboutUsContent .aboutus-description{
+    line-height: 25px;
+    text-align: justify;
+}
+
+.about-us-section .aboutUsContent button{
+    padding: 6px;
+    width: 23%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: white;
+}
