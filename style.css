@@ -188,7 +188,7 @@ a {
 
 .item5 { grid-area: footer; }
 
-.box1{
+.boxes{
     margin: 30px 0px;
 }
 
@@ -215,4 +215,48 @@ a {
 .grid-container div:hover{
     background-color: #182d37;
     transition: ease-in-out 0.5s;
+}
+
+.contentBox1{ grid-area: contentBox1;}
+.contentBox2{ grid-area: contentBox2;}
+.contentBoxPromotion{ grid-area: contentBoxPromotion;}
+
+.gridBodyBox{
+    margin: 0px 0px 30px 0px;
+    display: grid;
+    grid-template-areas:
+    "contentBox1 contentBox1 contentBox2 contentBox2  contentBoxPromotion contentBoxPromotion";
+    gap: 20px;
+}
+
+.gridBodyBox > div{
+    text-align: center;
+    margin: 0px auto;
+    position: relative;
+    padding: 0px 0px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.gridBodyBox img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.gridBodyBox .title{
+    padding: 20px;
+    color: #182d37;
+}
+
+.gridBodyBox .boxContent{
+    display: block;
+    text-align: justify;
+    margin: 0px auto;
+    width: 83%;
+    padding: 0px 0px 20px 0px;
+    line-height: 25px;
 }
